@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+.paragraf{
+    font-family: Roboto;
+    text-indent: 50px;
+    font-size: 25px;
+    padding:0 50px 0 50px;
+    border-radius: 10px;
+}
+.title{
+    font-size: 50px;
+    color: #ff6978;
+    text-transform: uppercase;
+    font-family: Roboto;
+    text-align: right;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.title::after{
+    content: "";
+    position: absolute;
+    border-bottom: #aedbea solid 6px;
+    margin-top: 60px;
+    margin-left: -150px;
+    width: 150px;
+}
+.img{
+    width: 85%;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}

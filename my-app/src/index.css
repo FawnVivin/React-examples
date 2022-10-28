@@ -1,0 +1,36 @@
+body{
+    margin: 0 auto;
+    padding: auto;
+}
+.header{
+    padding-left: 21px;
+    height: 60px;
+    background-color: #b1ede8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0px 0px 90px #e7e0e0;
+}
+.footer{
+    height:60px;
+    background-color: #b1ede8;
+    position: relative;
+    z-index: 2;
+}
+.content{
+    padding:0 15px 0 15px;
+    width: 65%;
+    background-color: #fffcf9;
+    box-shadow: 0px 0px 10px #e7e0e0;
+}
+.main{
+    display: flex;
+    justify-content:center;
+} 
+
+.left{
+    margin-left: 18vw;
+}
+

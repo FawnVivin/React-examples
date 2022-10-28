@@ -1,0 +1,56 @@
+.form{
+    display:flex;
+    justify-content:center;
+}
+.input{
+    width:450px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #f9f5f1;
+    border:antiquewhite solid 2px;
+    outline:none;
+    text-indent: 30px;
+    font-size: 20px;
+    color:#ff6978;
+    margin-right: 20px;
+}
+.input::placeholder{
+    text-indent: 30px;
+    color:#f0949e;
+}
+.input:hover,input:focus{
+    background-color: rgb(252, 242, 230);
+}
+.button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    border: #b1ede8 solid 2px;
+    background-color: #d9f7f5;
+    font-size: 57px;
+    color:#75e8df;
+}
+.button:hover{
+    background-color: #bbf2ee;
+}
+.toDoList{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.toDoItem{
+    width:540px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #d9f7f5;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 23px;
+    font-family: roboto;
+    color:#75b5b1;
+}
+.ulToDoList{
+    list-style:none;
+    padding: 0;
+}
