@@ -1,0 +1,16 @@
+.menuItem{
+    font-size: 20px;
+    margin-bottom: 10px;   
+    border-bottom: 1px solid rgb(89, 87, 87);
+    padding-bottom: 3px;
+}
+
+.menuContainer{
+    width: 17%;
+}
+.menuList{
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(47, 46, 46);
+    border-radius: 10px;
+}

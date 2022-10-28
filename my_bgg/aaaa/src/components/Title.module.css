@@ -1,0 +1,11 @@
+.titleText{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.titleText::before{
+    content: "";
+    width: 28px;
+    border-top: 4px solid rgb(238, 234, 234);
+    position: absolute;
+}

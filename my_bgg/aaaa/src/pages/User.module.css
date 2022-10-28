@@ -1,0 +1,45 @@
+.avatar{
+    width: 300px;
+    height: 300px;
+}
+.container{
+    width: 83%;
+    margin-top:16px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.userContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.userItem{
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.userList{
+    margin: 0;
+    width: 43%;
+    font-size: 20px;
+    background-color: rgb(47, 46, 46);
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+}
+.userName{
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 62px;
+}
+.postsTitle{
+    margin-top: 40px;
+    width: 82%;
+    display: flex;
+    
+}
+.infoItem{
+    font-size: 25px;
+}

@@ -1,0 +1,32 @@
+.postsContainer{
+    width: 82%;
+}
+.postsItem{
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    background:  rgb(179, 182, 50);
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.postsTitle{
+    text-indent: 10px;
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.postsLine{
+    content: "";    
+    border-bottom: 2px rgb(234, 228, 228) solid ;
+    width: 100%;
+    margin-top: -8px;
+    margin-bottom: 5px;
+}
+.postsAuthor{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
